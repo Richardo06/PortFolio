@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjetController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +20,11 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/apropos', [HomeController::class, 'apropos'])->name('apropos');
 Route::get('/resume', [HomeController::class, 'resume'])->name('resume');
-Route::get('/projet', [HomeController::class, 'projet'])->name('projet');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+
+
+//Projet
+Route::get('/projet', [ProjetController::class, 'projet'])->name('projet');
+Route::get('/detailTicket', [ProjetController::class, 'detailTicket'])->name('detailTicket');
+Route::get('/detailLogistique', [ProjetController::class, 'detailLogistique'])->name('detailLogistique');
 

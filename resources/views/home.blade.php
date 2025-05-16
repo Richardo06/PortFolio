@@ -12,7 +12,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
-      <img src="assets/img/elle.jpeg" alt="">
+      <img src="assets/img/elle.jpeg" alt="" style="margin:0 0 0 0; width: 100%; height: auto;">
 
       <div class="container" data-aos="zoom-out">
         <div class="row justify-content-center">
