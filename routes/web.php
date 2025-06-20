@@ -17,7 +17,7 @@ use App\Http\Controllers\ProjetController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/apropos', [HomeController::class, 'apropos'])->name('apropos');
 Route::get('/resume', [HomeController::class, 'resume'])->name('resume');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
