@@ -20,7 +20,7 @@
             <h2 style="font-size:2.2rem;">
               RALAIVAO Alimananirina<br>Richardo
             </h2>
-            <p>I'm <span class="typed" data-typed-items="Developer, Freelancer, Data Specialist">Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <p>I'm <span class="typed" data-typed-items="Software developer, Freelancer, Data Specialist">Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
               <a href=" https://www.facebook.com/share/19HPrP3rEs/ "><i class="bi bi-facebook"></i></a>
               <a href=" https://www.instagram.com/rhd0602 "><i class="bi bi-instagram"></i></a>
@@ -35,7 +35,10 @@
     
 
   </main>
+<<<<<<< HEAD:resources/views/home.blade.php
 
+=======
+>>>>>>> 60524888e3e174aa9b4bb896358880dc2f89e3a9:resources/views/index.blade.php
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
