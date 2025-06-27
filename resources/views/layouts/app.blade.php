@@ -23,6 +23,8 @@
 
   <!-- Main CSS -->
   <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+  @vite('resources/css/app.css')
+
 </head>
 <body>
 
@@ -35,7 +37,7 @@
         <li><a href="{{ route('index') }}"class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="{{ route('apropos') }}"><i class="bi bi-person navicon"></i><span>About</span></a></li>
         <li><a href="{{ route('resume') }}"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="{{ route('projet') }}"><i class="bi bi-kanban-fill"bi bi-images navicon"></i><span>Projects</span></a></li>
+        <li><a href="{{ route('projet') }}"><i class="bi bi-kanban-fill navicon"></i><span>Projects</span></a></li>
         <li><a href="{{ route('contact') }}"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
       </ul>
     </nav>
@@ -58,5 +60,6 @@
 
   <!-- Main JS File -->
   <script src="{{ asset('assets/js/main.js') }}"></script>
+  @vite('resources/js/app.js')
 </body>
 </html>
