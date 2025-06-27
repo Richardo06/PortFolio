@@ -40,7 +40,15 @@ RUN composer install --optimize-autoloader --no-dev
 RUN npm install && npm run build
 
 # Étape 8 : Générer la clé d'application (facultatif si déjà dans .env)
+# Copier un exemple .env si le vrai n'existe pas
+RUN cp .env.example .env
+
+# Donner les bonnes permissions
+RUN chmod -R 775 storage bootstrap/cache
+
+# Générer la clé Laravel
 RUN php artisan key:generate
+
 
 # Étape 9 : Exposer le port utilisé par Laravel
 EXPOSE 8080
